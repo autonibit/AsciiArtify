@@ -15,7 +15,7 @@
 3. Застосуємо інсталяційний YAML-маніфест файл в рамках неймспейсу argocd, тобто проінсталюємо AgroCD
     
     ```bash
-    kubectl apply -n argocd -f [https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/core-install.yaml](https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/core-install.yaml)
+    kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/core-install.yaml
     ```
     
 
