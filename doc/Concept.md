@@ -1,4 +1,6 @@
-# Comparative analysis of tools for local Kubernetes cluster deployment
+# AsciiArtify. Concept
+
+> Comparative analysis of tools for local Kubernetes cluster deployment
 
 ## Introduction
 
@@ -63,7 +65,6 @@ Minikube, Kind, and K3d - three popular tools for running Kubernetes locally.
    ```sh
    k3d cluster create test-cluster
    ```
-
 3. Deploy an example hello-world app:
 
    ```sh
@@ -74,7 +75,6 @@ Minikube, Kind, and K3d - three popular tools for running Kubernetes locally.
    ```sh
    kubectl get pods
    ```
-
 5. Check deploys
 
    ```sh
